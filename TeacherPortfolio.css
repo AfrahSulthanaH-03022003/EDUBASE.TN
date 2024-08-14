@@ -1,0 +1,95 @@
+/* src/TeacherPortfolio.css */
+.sss{
+    height: 100vh;
+  }
+  .teacher-portfolio{
+      background-image: url("https://static.vecteezy.com/system/resources/previews/000/598/522/original/light-pastel-color-vector-low-poly-crystal-background-polygon-design-pattern-low-poly-illustration-background.jpg");
+      background-size: cover;
+      margin-top: 1px;
+      padding-top: 10px;
+      padding-bottom: 90px;
+      align-items: center;
+  
+  }
+  .portfolio-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: powderblue;
+      border: 2px solid grey;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      margin-top: 10px;
+      width: 300px;
+      margin: 20px auto;
+    }
+    
+    .photo-container {
+      margin-bottom: 20px;
+    }
+    
+    .teacher-photo {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+    }
+    
+    .details-container p {
+      margin: 4px 0;
+      
+    }
+    
+    .details-container strong {
+      font-weight: bold;
+    }
+    
+    .form-container {
+      margin-top: 1px;
+      margin-bottom: 80px;
+      
+      width: 100%;
+  
+    }
+    
+    form {
+      display: flex;
+      margin-bottom: 90px;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    form div {
+      
+      margin-bottom: 8px;
+    }
+    
+    label {
+      
+      display: block;
+      margin-bottom: 5px;
+      
+    }
+    
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    button {
+      padding: 10px 20px;
+      border:  1px solid;
+      border-radius: 4px;
+      background-color: teal;
+      color: black;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: powderblue;
+    }
+    

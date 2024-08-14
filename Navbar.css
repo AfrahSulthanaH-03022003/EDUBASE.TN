@@ -1,0 +1,140 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: powderblue;
+    color: black;
+    position: relative;
+}
+
+/* Logo */
+.navbar-logo img {
+    width: 100px;
+}
+
+/* Hamburger icon */
+.navbar-toggle {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    left: 20px; /* Adjust as needed */
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+    transition: 0.3s ease;
+}
+
+.hamburger.open {
+    transform: rotate(45deg);
+}
+
+.hamburger.open::before {
+    transform: rotate(90deg);
+    top: 0;
+}
+
+.hamburger.open::after {
+    opacity: 0.5;
+}
+
+/* Navbar menu container */
+.navbar-menu-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+/* Dropdown menu */
+.navbar-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    transition: max-height 0.3s ease;
+}
+
+.navbar-menu.open {
+    display: flex;
+}
+
+.navbar-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu ul li {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.navbar-menu ul li a {
+    color: black ;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-menu ul li a:hover {
+    background-color: ivory; /* Darker black */
+}
+
+/* Login button */
+.navbar-login {
+    padding: 10px 20px;
+}
+
+.navbar-login button {
+    padding: 10px 20px;
+    background-color: ivory;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-login button:hover {
+    background-color: #f0f0f0; /* Lighter ivory */
+}
+
+/* Responsive design */
+@media (min-width: 768px) {
+    .navbar-menu {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        width: auto;
+        background-color: transparent;
+    }
+
+    .navbar-menu ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar-menu ul li {
+        padding: 0 10px;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+}

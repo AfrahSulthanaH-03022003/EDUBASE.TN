@@ -1,0 +1,60 @@
+/* Events Page Container */
+.events-container {
+    padding: 20px;
+    background-color: white; /* Consistent with the existing theme */
+}
+
+/* Title */
+.events-title {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Cards Container */
+.events-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Individual Card */
+.events-card {
+    background-color: ivory; /* Consistent with the existing theme */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+/* Card Content */
+.events-card-content {
+    text-align: center;
+}
+
+/* Card Title */
+.events-card-title {
+    margin: 10px 0;
+    color: black;
+    font-size: 1.2em;
+}
+
+/* Card Date and Location */
+.events-card-date,
+.events-card-location {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Card Hover Effects */
+.events-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}

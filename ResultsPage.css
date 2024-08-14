@@ -1,0 +1,74 @@
+/* Results Page Container */
+.results-page-container {
+    padding: 20px;
+    background-color:white; /* Consistent with the existing theme */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Title */
+.results-page-title {
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Form */
+.results-form {
+    background-color: ivory; /* Consistent with the existing theme */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Group */
+.results-form-group {
+    margin-bottom: 15px;
+}
+
+/* Form Label */
+.results-form-label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+    font-size:18px;
+    padding-bottom: 20px;
+}
+
+/* Form Input */
+.results-form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* Submit Button */
+.results-submit-button {
+    padding: 10px 20px;
+    background-color: ivory; /* Consistent with the existing theme */
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    background-color: powderblue; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.results-submit-button:hover {
+    background-color: #f0f0f0; /* Lighter ivory */
+}
+

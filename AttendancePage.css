@@ -1,0 +1,131 @@
+/* Attendance Page Container */
+.attendance-page-container {
+    padding: 20px;
+    background-color: #f0f0f0; /* Consistent with the existing theme */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Title */
+.attendance-page-title {
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Form */
+.attendance-form {
+    background-color: ivory; /* Consistent with the existing theme */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Student List */
+.attendance-student-list {
+    margin-bottom: 20px;
+}
+
+/* Student Item */
+.attendance-student-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Checkbox */
+.attendance-checkbox {
+    margin-right: 10px;
+}
+
+/* Student Label */
+.attendance-student-label {
+    color: black;
+}
+
+/* Submit Button */
+.attendance-submit-button {
+    padding: 10px 20px;
+    background-color: ivory; /* Consistent with the existing theme */
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.attendance-submit-button:hover {
+    background-color: #f0f0f0; /* Lighter ivory */
+}
+.attendance-page-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.attendance-page-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.attendance-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.attendance-student-list {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.attendance-student-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.attendance-checkbox {
+    display: flexbox;
+}
+
+.attendance-checkbox-tick + .attendance-student-label {
+    color: green;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.attendance-checkbox-cross + .attendance-student-label {
+    color: red;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.attendance-checkbox:checked + .attendance-student-label {
+    font-weight: bold ;
+}
+
+.attendance-student-name {
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.attendance-submit-button {
+    background-color: navy;
+    color: beige;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.attendance-submit-button:hover {
+    background-color: powderblue;
+    color: black;
+}
+

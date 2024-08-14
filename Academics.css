@@ -1,0 +1,56 @@
+/* Academics Page Container */
+.academics-container {
+    padding: 20px;
+    background-color: white;/* Consistent with the existing theme */
+}
+
+/* Title */
+.academics-title {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Cards Container */
+.academics-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Individual Card */
+.academics-card {
+    background-color: ivory; /* Consistent with the existing theme */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Card Image */
+.academics-card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Card Content */
+.academics-card-content {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Card Title */
+.academics-card-title {
+    margin: 0;
+    color: black;
+}
+
+/* Card Hover Effects */
+.academics-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}

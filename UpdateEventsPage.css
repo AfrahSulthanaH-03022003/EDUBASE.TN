@@ -1,0 +1,70 @@
+.update-events-container {
+    background-color: ivory;
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 800px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.update-events-title {
+    text-align: center;
+    color: black;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.events-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.event-card {
+    background-color: powderblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.event-field {
+    margin-bottom: 15px;
+}
+
+.event-label {
+    display: block;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.event-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.update-events-button {
+    display: block;
+    background-color: teal;
+    color: white;
+    padding: 15px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 30px auto;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif;
+    width: 50%;
+    text-align: center;
+}
+
+.update-events-button:hover {
+    background-color: #005f5f;
+}

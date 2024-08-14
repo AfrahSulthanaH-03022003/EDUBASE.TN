@@ -1,0 +1,42 @@
+.landing-page {
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+.landing-header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: powderblue;
+}
+
+.landing-header h1 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.landing-header p {
+    font-size: 18px;
+}
+
+.landing-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.landing-section h2 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    flex: 1 1 calc(33.333% - 40px); /* Adjusted to create space between cards */
+    max-width: calc(33.333% - 40px);
+    box-sizing: border-box;
+}

@@ -1,0 +1,42 @@
+/* Footer container */
+.footer-container {
+    background-color: powderblue;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+/* Footer content */
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Footer section */
+.footer-section {
+    margin: 10px;
+    max-width: 300px;
+}
+
+/* Footer section headers */
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Footer links */
+.footer-section a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+/* Footer text */
+.footer-section p {
+    margin: 5px 0;
+}
